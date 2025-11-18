@@ -17,3 +17,4 @@ Alur kerja program dimulai ketika pengguna membuka salah satu file utama seperti
 Ketika pengguna mengisi form dan menekan submit, data dikirim ke controller melalui method POST. Controller akan melakukan validasi sederhana dan meneruskan data tersebut ke model menggunakan method create() atau updateData(). Model kemudian menjalankan query SQL untuk menyimpan atau memperbarui data di database. Jika tindakan berhasil, controller akan mengarahkan kembali ke mode list agar perubahan langsung terlihat. Pada fitur yang melibatkan relasi seperti DosenDetail dan Matakuliah, controller juga mengambil daftar dosen dari model Dosen untuk ditampilkan dalam bentuk dropdown, sehingga pengguna dapat memilih dosen yang tepat saat membuat atau mengedit data.
 
 Dokumentasi:
+https://youtu.be/FU0MVLtbFwA
